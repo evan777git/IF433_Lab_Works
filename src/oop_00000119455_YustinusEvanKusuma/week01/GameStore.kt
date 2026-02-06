@@ -4,3 +4,5 @@ fun main(){
     val gameTitle = "GTA"
     val price = 250_000
 }
+
+fun calculateDiscount(price: Int) = if (price > 500_000) price * 0.2 else price * 0.1 
