@@ -23,4 +23,4 @@ fun main () {
     val idLength = studentId?.length ?: 0
 
     println("Panjang ID: $idLength")
-} 
+}
