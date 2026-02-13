@@ -3,7 +3,8 @@ package oop_00000119455_YustinusEvanKusuma.week02
 class Student (
     val name: String,
     val nim: String,
-    var major: String
+    var major: String,
+    var gpa: Double = 0.0 //<-- Default Argument
 ){
     init{
         // Validasi Sederhana: Cek panjang NIM
