@@ -10,7 +10,8 @@ class Employee(val name: String) {
                 field = value // Gunakan field untuk assign nilai asli
             }
         }
-
+    val tax: Double
+        get() = salary * 0.1
     private var performanceRating: Int = 3
 
     // Private property
