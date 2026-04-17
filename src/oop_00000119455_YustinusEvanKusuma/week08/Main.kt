@@ -61,7 +61,7 @@ fun main(){
     }
 
     println("\n=== TEST JAVA INTEROP ===")
-    val javaResponse = LegacyJavaApi.fetchServerStatus()
+    val javaResponse = LegacyJavaAPI.fetchServerStatus()
     // Kita menekan tombol !! karena KITA TAHU implementasi Java-nya aman
     val statusLength = javaResponse!!.length
     println("Status dari Java: $javaResponse (Length: $statusLength)")
